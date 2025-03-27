@@ -16,5 +16,7 @@ const res = persons.reduce((acc, value) => {
     return acc;
 }, 0);
 
+
+
 const expectedSalarySum = 3000 + 3200 + 5000 + 5500;
 console.assert(res === expectedSalarySum, `Expected ${expectedSalarySum}, but got ${res}`);
